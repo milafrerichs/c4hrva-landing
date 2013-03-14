@@ -1,8 +1,8 @@
 Code for San Diego Website
 
-Landing page for Code for Virginia Beach
+Landing page for Code for San Diego 
 
-Note that branch `gh-pages` is what shows on production codeforvirginiabeach.org. Master does nothing.
+Note that branch `gh-pages` is what shows on production codeforsandiego.org. Master does nothing.
 
 #How to Code for this Repo
 Option A: Fork, Edit, then Pull Request when ready.
