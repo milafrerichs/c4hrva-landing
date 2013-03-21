@@ -15,7 +15,7 @@
       var pluginUrl =
       '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
       _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-      _gaq.push(['_setAccount', 'UA-37047121-1']);
+      _gaq.push(['_setAccount', 'UA-39451042-1']);
       _gaq.push(['_trackPageview']);
 
       (function() {
@@ -23,6 +23,22 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
+<!-- UserVoice JavaScript SDK (only needed once on a page) -->
+<script>(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/T50A0gu81MvAHpYYB92REw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})()</script>
+
+<!-- A tab to launch the Classic Widget -->
+UserVoice = window.UserVoice || [];
+UserVoice.push(['showTab', 'classic_widget', {
+  mode: 'full',
+  primary_color: '#cc6d00',
+  link_color: '#007dbf',
+  default_mode: 'support',
+  forum_id: 199107,
+  tab_label: 'Ideas',
+  tab_color: '#0700cc',
+  tab_position: 'middle-right',
+  tab_inverted: false
+}]);
     </script>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -53,7 +69,6 @@
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#meetup">Events</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
                 <li class="dropdown" id="menu1">
                   <a href="#menu1" class="dropdown-toggle" data-toggle="dropdown">
                     Resources
@@ -61,32 +76,32 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a href="https://groups.google.com/a/codeforamerica.org/forum/#!forum/c4hrva">
+                      <a href="https://groups.google.com/forum/?fromgroups#!forum/codeforsandiego">
                       <i class=icon-comment icon-white></i>
                       Our Google Groups Forum</a>
                     </li>
                     <li>
-                      <a href="http://www.meetup.com/cfabrigade/">
+                      <a href="http://www.meetup.com/cfabrigade/Open-San-Diego/">
                         <i class=icon-user icon-white></i>
                         Our Gatherings on Meetup</a>
                     </li>
                     <li>
-                      <a href="http://webchat.freenode.net?channels=codeforva&uio=d4">
+                      <a href="http://webchat.freenode.net?channels=codeforsandiego&uio=d4">
                         <i class=icon-bullhorn icon-white></i>
                         Our chat on freenode IRC</a></a>
                     </li>
                     <li>
-                      <a href="https://github.com/c4hrva">
+                      <a href="https://github.com/codeforsandiego">
                         <i class=icon-wrench icon-white></i>
                         Our Code on GitHub</a>
                     </li>
                     <li>
-                      <a href="http://c4hrva.uservoice.com/">
+                      <a href="http://c4sd.uservoice.com/">
                       <i class=icon-thumbs-up icon-white></i>
                       Idea List for Civic Apps and Open Data</a>
                     </li>
                     <li>
-                      <a href="https://docs.google.com/folder/d/0B_WC8QOgiwjzeDBPRkM2UW05ZjA/edit?usp=sharing">
+                      <a href="https://drive.google.com/a/codeforamerica.org/?pli=1#folders/0Byd4lP5Lia8wQUtzNXhOWTNlYkk">
                         <i class=icon-folder-open icon-white></i>
                         Our Docs on Google</a>
                     </li>
@@ -97,11 +112,6 @@
                       <a href="https://twitter.com/search?q=%23cfabrigade">
                         <i class=icon-retweet icon-white></i>
                         #cfabrigade - National Tweets</a>
-                      </li>
-                    <li>
-                      <a href="http://citycamphrva.govfresh.com/">
-                        <i class=icon-bullhorn icon-white></i>
-                        Kevin's "CityCamp" Blog</a>
                       </li>
                   </ul>
                 </li>
@@ -150,16 +160,16 @@
         <div class="span4">
           <img src="images/captain.png">
           <h2>Come To Our Meetups</h2>
-          <p>A casual <a href="http://www.meetup.com/Open-San-Diego/">meetup</a>, usually weekly, alternating between Norfolk and VB.</p>
+          <p>A casual <a href="http://www.meetup.com/Open-San-Diego/">meetup</a>, usually bi-weekly meetup that explores different civic technology topics.</p>
           <p><a class="btn" href="#meetup">View details &raquo;</a></p>
         </div><!-- /.span4 -->
 
         <div class="span4">
           <img src="images/community.png">
           <h2>Join Online Discussions</h2>
-          <p><a href="https://groups.google.com/a/codeforamerica.org/forum/#!forum/c4hrva">
+          <p><a href="https://groups.google.com/forum/?fromgroups#!forum/codeforsandiego">
             An open conversation online</a> about what we're doing now and what's next. We're also on
-            freenode IRC at <a href="http://webchat.freenode.net?channels=codeforva&uio=d4">#codeforva</a>.</p>
+            freenode IRC at <a href="http://webchat.freenode.net?channels=codeforva&uio=d4">#codeforsandiego</a>.</p>
           <p><a class="btn" href="#groups">View details &raquo;</a></p>
         </div><!-- /.span4 -->
 
@@ -167,7 +177,7 @@
           <img src="images/cfa_logo_greyscale.png">
           <h2>See Our Inspiration</h2>
           <p><a href="http://codeforamerica.org/">Code for America</a> is the organization that helped inspire
-            many of us that we can change our City.
+            many of us that we can change our City and Region.
           </p>
           <p><a class="btn" href="#cfa">View details &raquo;</a></p>
         </div><!-- /.span4 -->
@@ -184,26 +194,8 @@
         <p class="lead">
           <ul class="lead">
             <li>
-              (beta) HRT Bus Finder: Real-Time Bus Tracking
-              (<a href="http://bus.codeforvirginiabeach.org/busfinder/">demo</a>)
-              (<a href="https://github.com/c4hrva/hrt-bus-api">code</a>)</li>
-            <li>
-              (beta) Clean The Bay Day 2013: Easier Zone Reporting
-              (<a href="http://cbf-clean.meteor.com/">demo</a>)
-              (<a href="https://github.com/c4hrva/cbf-clean">code</a>)</li>
-            <li>
-              (pre-beta) Heat Maps of VB Traffic
-              (<a href="http://dev.bowdenweb.com/od/heatmap-js/demo/maps_heatmap_layer/gmaps-vb-adt-2012.html">demo</a>)
-              (<a href="https://github.com/jalbertbowden/vb-adt-heatmaps">code</a>)</li>
-            <li>
-              (pre-beta) Adopt-a-VB-Storm-Drain: Adopt and Report if it Needs Cleaning
-              (<a href="https://github.com/c4hrva/adopt-a-spot">code</a>)</li>
-            <li>
-              <a href="http://c4hrva.uservoice.com/">List of Future Ideas!</a>
-              Submit your Own Ideas, or Pick One To Help With</li>
-            <li>
-              <a href="http://hropendatalist.meteor.com/">List of public and open datasets in San Diego</a>.
-              Use to create usefull and fun things.</li>
+              <a href="http://catalog.opensandiego.org/">Catalog of San Diego Tech Resources and Datasets</a>.
+              Use to create useful and fun things.</li>
           </ul>
         </p>
       </div>
@@ -214,7 +206,7 @@
         <a href="http://brigade.codeforamerica.org/">
           <img name="cfa" id="cfa" class="featurette-image pull-right" src="images/cfa_brigade_logo.png">
         </a>
-        <h2 class="featurette-heading">Want To Help Your City? <span class="muted">Good, we could use your help.</span></h2>
+        <h2 class="featurette-heading">Want To Help Your Neighborhood, City or Region? <span class="muted">Good, we could use your help.</span></h2>
         <p class="lead">We are a <a href="http://brigade.codeforamerica.org/">Code for America Brigade</a>,
           which means we're volunteers that contribute
           our talents toward improving the way our local governments and community organizations use the web.
@@ -233,20 +225,20 @@
         <h2 class="featurette-heading">We Meet Often. <span class="muted">Come Join Us.</span></h2>
         <p class="lead">View our <a href="http://www.meetup.com/Open-San-Diego/">
           Meetups site</a> for our next location and time. We try to meet every few
-          Wednesdays where we hack (develop) our projects,
-          or brainstorm on current issues and activities around San Diego. There's also a <a href="http://www.meetup.com/cfabrigade/Norfolk-VA/">Norfolk Meetup</a>. It's actually a lot of fun, with great people and usually food/drink.</p>
+          Weeks where we hack (develop) our projects,
+          or brainstorm on current issues and activities around San Diego.</p> 
       </div>
 
       <hr class="featurette-divider">
 
       <div class="featurette">
-        <a href="https://groups.google.com/a/codeforamerica.org/forum/#!forum/c4hrva">
+        <a href="https://groups.google.com/a/codeforamerica.org/forum/#!forum/codeforsandiego">
           <img name="groups" id="groups" class="featurette-image pull-right" src="images/google_groups.png">
         </a>
         <h2 class="featurette-heading">We Discuss Things Online. <span class="muted">Join and Introduce Yourself.</span></h2>
         <p class="lead">
           Can't make it to a meetup?  No problem. We collaborate on projects, ask for help, and post wins
-          to our <a href="https://groups.google.com/a/codeforamerica.org/forum/#!forum/c4hrva">Code for San Diego forum</a> where you can get new posts in email and reply. We welcome anyone to sign-up... you might just see something you're interested in helping with. We're also in IRC chat on freenode.net channel <a href="http://webchat.freenode.net?channels=codeforva&uio=d4">#codeforva</a>.</p>
+          to our <a href="https://groups.google.com/a/codeforamerica.org/forum/#!forum/codeforsandiego">Code for San Diego forum</a> where you can get new posts in email and reply. We welcome anyone to sign-up... you might just see something you're interested in helping with. We're also in IRC chat on freenode.net channel <a href="http://webchat.freenode.net?channels=codeforva&uio=d4">#codeforva</a>.</p>
       </div>
 
       <hr class="featurette-divider">
@@ -254,7 +246,7 @@
       <div class="featurette">
         <img name="contact" id="contact" class="featurette-image pull-right" src="">
         <h2 class="featurette-heading">Want Even More Info? <span class="muted">Contact Us.</span></h2>
-        <p class="lead">Our Brigade Captains are Kevin Curry (<a href="mailto:kevin@codeforamerica.org">kevin@codeforamerica.org</a> or <a href="https://twitter.com/kmcurry">@kmcurry</a>) and Bret Fisher (<a href="mailto:bret@codeforamerica.org">bret@codeforamerica.org</a> or <a href="https://twitter.com/BretFisher">@BretFisher</a>) and we want to hear from you!</p>
+        <p class="lead">Our Brigade Captain is Jeffrey Johnson (<a href="mailto:jjohnson@codeforamerica.org">jjohnson@codeforamerica.org</a> or <a href="https://twitter.com/ortelius">@ortelius</a>) and our brigade team list is on <a href="https://twitter.com/ortelius/code-for-san-diego/members">twitter</a> and we want to hear from you!</p>
       </div>
 
       <hr class="featurette-divider">
@@ -266,7 +258,7 @@
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>...People Trying to Make San Diego Even Better...</p>
-        <p>Built and Maintained by CfVB (Hey that's us). Site Design Based on <a href="http://twitter.github.com/bootstrap">Bootstrap</a>, Some Images Provided by <a href="http://thenounproject.com">The Noun Project</a>.</p>
+        <p>Built and Maintained by C4SD (Hey that's us). Site Design Based on <a href="http://twitter.github.com/bootstrap">Bootstrap</a>, Some Images Provided by <a href="http://thenounproject.com">The Noun Project</a>.</p>
       </footer>
 
     </div><!-- /.container -->
